@@ -35,13 +35,9 @@ body {
 }
 
 
-
-body
-input
-textarea
-button {
-    font-weight: 400 1rem "Inter", sans-serif;
-}
+body, input, textarea, button {
+    font: 400 16px 'Inter', sans-serif;
+  }
 
 button {
     cursor: pointer;

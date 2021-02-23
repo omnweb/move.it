@@ -1,4 +1,3 @@
-import { render } from 'react-dom'
 import styles from '../styles/components/Profile.module.css'
 
 export function Profile() {
@@ -6,7 +5,7 @@ export function Profile() {
         <div className={styles.profileContainer}>
             <img src="https://github.com/omnweb.png" alt="Imagem Perfil" />
             <div>
-                <strong>Neto MAtiazi</strong>
+                <strong>Neto Matiazi</strong>
                 <p>
                     <img src="icons/level.svg" alt="Level" />
                     Level 1

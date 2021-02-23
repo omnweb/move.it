@@ -1,4 +1,5 @@
 import React from 'react';
+import { CompletedChallenges } from '../components/CompletedChallenges';
 import { ExperienceBar } from '../components/ExperienceBar';
 import { Profile } from '../components/Profile';
 import styles from '../styles/components/Home.module.css'
@@ -10,6 +11,7 @@ export default function Home() {
       <section>
         <div>
           <Profile />
+          <CompletedChallenges />
         </div>
         <div></div>
       </section>
