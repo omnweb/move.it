@@ -28,6 +28,12 @@
     }
 }
 
+@media(min-height: 600px) {
+    html {
+        font-size: 80.5%;
+    }
+}
+
 
 body {
     background-color: var(--background);

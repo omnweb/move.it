@@ -1,10 +1,15 @@
 import React from 'react';
+
+import Head from 'next/Head'
+
 import { CompletedChallenges } from '../components/CompletedChallenges';
 import { Countdown } from '../components/CountDown';
 import { ExperienceBar } from '../components/ExperienceBar';
 import { Profile } from '../components/Profile';
+import { ChallengeBox } from '../components/ChallengeBox';
+
 import styles from '../styles/components/Home.module.css'
-import Head from 'next/Head'
+
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -20,7 +25,9 @@ export default function Home() {
           <CompletedChallenges />
           <Countdown />
         </div>
-        <div></div>
+        <div>
+          <ChallengeBox />
+        </div>
       </section>
     </div>
   )
