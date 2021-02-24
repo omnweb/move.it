@@ -76,4 +76,12 @@
     background-color: var(--grey-line);
     color: var(--title);
     cursor: not-allowed;
+    border-bottom: solid 5px var(--green)
+  }
+
+  .countdownButton:disabled img {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    max-height: .85rem;
   }
