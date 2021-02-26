@@ -36,7 +36,10 @@ export function ChallengesProvider({ children }) {
     // Pedindo permissão para o usuário para enviar notificações
     useEffect(() => {
         Notification.requestPermission()
-    }, [])
+    }, [level, currentExperience, challengesCompleted])
+
+    // Armazenando dados em cookies
+    useEffect(() => { })
 
     function levelUp() {
         setLevel(level + 1)
