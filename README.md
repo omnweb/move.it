@@ -1,10 +1,10 @@
 
-
+ <h1> Move.it</h1>
+ <h3>O app para Web é voltado para auxiliar quem fica muito tempo em frente ao computador e esquece de se exercitar. Um contador regressivo emite um som e dispara uma mensagem que lembra o usuário de verificar o aplicativo, a cada ciclo um novo exercício é proposto e o usuário vai ganhando xp e passando de fases.<h3>
 <p align="center">
   <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
 </p>
 
 <br>
